@@ -1,0 +1,73 @@
+/* User.css */
+
+
+.list-storage-items {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.list-storage-container {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.list-storage-container::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.list-storage-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.lsit-storage-top-left p {
+  margin: 8px 0;
+  color: #333;
+}
+
+.fw-bold {
+  font-weight: bold;
+  color: #000;
+}
+
+.list-storage-img {
+  font-size: 48px;
+  color: #3498db;
+}
+
+.list-storage-bottom {
+  margin-top: 15px;
+}
+
+.list-storage-bottom p {
+  margin: 10px 0;
+  color: #333;
+}
+
+input[type="date"] {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.booknow-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.booknow-btn:hover {
+  background-color: #2980b9;
+}

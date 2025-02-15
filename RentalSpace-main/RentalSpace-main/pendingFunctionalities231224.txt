@@ -1,0 +1,6 @@
+
+delete a storage
+Contact of Owner
+Total Account Earning
+Security - Last Step
+validations for all post requests
